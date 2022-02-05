@@ -1,0 +1,12 @@
+nonebot
+nonebot[scheduler]
+requests
+fuzzywuzzy
+python-Levenshtein
+PyYAML==3.12
+opencv-python
+numpy
+pillow
+aiohttp
+lxml
+pycryptodome

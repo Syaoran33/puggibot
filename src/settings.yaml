@@ -1,0 +1,72 @@
+#PuggiBot user-designed extention settings
+
+#管理员
+manager:
+  self_id: '2012827170'
+  master: '2536697935'
+  superuser: ['']
+  group_manager: ['']
+  member: ['']
+  black_list: []
+
+#资产
+
+asset:
+  signin:
+    curren: 0
+    ring: 0
+    gem: 50
+  setu:
+    curren: 0
+    ring: 0
+    gem: 50
+
+#群聊
+group:
+  common_groupid_list: ['1131147378']
+
+  self_group:
+    name: '万象开发 x 普吉安养'
+    id: '1131147378'
+    secret: K7NB
+    reject: False #暗号错误是否拒绝
+    reject_text: '暗号错误,请私聊群管理员暗号'
+  
+  debug_group:
+    name: ''
+    id: ''
+    secret: ''
+    reject: 
+    
+
+  event:
+    #禁止群聊调用抽卡
+    gashapon:
+      groupmsg_banlist: ['1131147378']
+    calculator:
+      groupmsg_banlist: ['1131147378']
+    announcement:
+      groupmsg_banlist: []
+    wonderland:
+      reminder_list: ['1131147378']
+    prononce:
+      prononce_list: ['1131147378']
+    skillinfo:
+      groupmsg_banlist: ['1131147378']
+    figure:
+      groupmsg_banlist: [['1131147378']
+    charchef:
+      groupmsg_banlist: ['1131147378']
+    guild:
+      group_id: ['1131147378']
+    upgrade:
+      reminder_list: ['1131147378']
+    signin:
+      groupmsg_perlist: ['1131147378']
+#幻境
+wonderland:
+  reminder:
+    message: 早安，万象人! 温馨提醒，幻境将在明日结算,记得完成本周的幻境作业喔~
+    scheduler_day: tue
+    scheduler_time: '8' #0-23 
+    all_group: False
